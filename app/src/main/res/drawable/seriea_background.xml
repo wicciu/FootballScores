@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:enterFadeDuration="@android:integer/config_shortAnimTime"
+    android:exitFadeDuration="@android:integer/config_shortAnimTime">
+    <item android:state_selected="true">
+        <bitmap
+            android:gravity="center|bottom|clip_vertical"
+            android:src="@drawable/bundesliga_country_flag"
+            android:tint="@color/darkGrey"
+            android:tintMode="multiply"
+            />
+    </item>
+    <item android:state_pressed="true">
+        <bitmap
+            android:gravity="center|bottom|clip_vertical"
+            android:src="@drawable/seriea_country_flag"
+            android:tint="@color/darkGrey"
+            android:tintMode="multiply"
+            />
+    </item>
+    <item android:state_focused="true">
+        <bitmap
+            android:gravity="center|bottom|clip_vertical"
+            android:src="@drawable/seriea_country_flag"
+            android:tint="@color/darkGrey"
+            android:tintMode="multiply"
+            />
+    </item>
+    <item>
+        <bitmap
+            android:gravity="center|bottom|clip_vertical"
+            android:src="@drawable/seriea_country_flag"
+            android:tint="@color/lightGrey"
+            android:tintMode="multiply"
+            />
+    </item>
+</selector>

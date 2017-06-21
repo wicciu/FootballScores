@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/league_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimaryDark">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <pl.witoldbrzezinski.footballscores.LeaguesItemView
+                android:id="@+id/bundesliga_item"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/darkGrey"
+                android:tag="430"
+                app:leagueId="430"
+                app:backgroundImage="@drawable/bundesliga_country_flag"
+                app:leagueImage="@drawable/bundesliga_background"
+                app:leagueName="Bundesliga"
+                app:matchDays="34"></pl.witoldbrzezinski.footballscores.LeaguesItemView>
+
+            <pl.witoldbrzezinski.footballscores.LeaguesItemView
+                android:id="@+id/laliga_item"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/darkGrey"
+                android:tag="436"
+                app:leagueId="436"
+                app:backgroundImage="@drawable/laliga_country_flag"
+                app:leagueImage="@drawable/laliga_background"
+                app:leagueName="La Liga"
+                app:matchDays="38"></pl.witoldbrzezinski.footballscores.LeaguesItemView>
+
+            <pl.witoldbrzezinski.footballscores.LeaguesItemView
+                android:id="@+id/premierleague_item"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/darkGrey"
+                android:tag="426"
+                app:leagueId="426"
+                app:backgroundImage="@drawable/premierleague_country_flag"
+                app:leagueImage="@drawable/premierleague_background"
+                app:leagueName="Premier League"
+                app:matchDays="38"></pl.witoldbrzezinski.footballscores.LeaguesItemView>
+
+
+            <pl.witoldbrzezinski.footballscores.LeaguesItemView
+                android:id="@+id/seriea_item"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/darkGrey"
+                android:tag="438"
+                app:leagueId="438"
+                app:backgroundImage="@drawable/seriea_country_flag"
+                app:leagueImage="@drawable/seriea_background"
+                app:leagueName="Serie A"
+                app:matchDays="38"></pl.witoldbrzezinski.footballscores.LeaguesItemView>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

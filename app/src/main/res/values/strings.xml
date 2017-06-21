@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">FootballScores</string>
+    <string name="team">Team</string>
+    <string name="played">PL</string>
+    <string name="won">W</string>
+    <string name="draw">D</string>
+    <string name="lost">L</string>
+    <string name="goals_for">GF</string>
+    <string name="goals_againts">GA</string>
+    <string name="points">PT</string>
+    <string name="connecting">CONNECTING</string>
+    <string name="wait">PLESE WAIT</string>
+    <string name="position">No.</string>
+    <string name="something_went_wrong">SOMETHING WENT WRONG</string>
+    <string name="tbd">TBD</string>
+    <string name="fixtures">FIXTURES</string>
+    <string name="table">TABLE</string>
+    <string name="matchdate">MATCHDATE</string>
+</resources>

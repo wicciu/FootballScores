@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FootballScores</string>
+    <string name="connecting">ŁĄCZENIE</string>
+    <string name="draw">D</string>
+    <string name="goals_againts">GA</string>
+    <string name="goals_for">GF</string>
+    <string name="lost">L</string>
+    <string name="played">PL</string>
+    <string name="points">PT</string>
+    <string name="position">Lp.</string>
+    <string name="something_went_wrong">COŚ POSZŁO NIE TAK</string>
+    <string name="tbd">TBD</string>
+    <string name="team">Drużyna</string>
+    <string name="wait">PROSZĘ POCZEKAĆ</string>
+    <string name="won">W</string>
+    <string name="fixtures">SPOTKANIA</string>
+    <string name="table">TABELA</string>
+    <string name="matchdate">KOLEJKA</string>
+</resources>

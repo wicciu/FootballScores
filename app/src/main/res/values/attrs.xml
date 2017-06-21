@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="LeagueItemView">
+        <attr name="leagueName" format="string"/>
+        <attr name="leagueImage" format="reference"/>
+        <attr name="backgroundImage" format="integer|reference"></attr>
+        <attr name="leagueId" format="string"></attr>
+        <attr name="matchDays" format="string"></attr>
+    </declare-styleable>
+</resources>
